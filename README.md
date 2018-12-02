@@ -65,3 +65,5 @@ Percentage of the requests served within a certain time (ms)
   99%      0
  100%      3 (longest request)
 ```
+
+注意：需要编译openresty的时候加上参数  --with-http_iconv_module ，此模块默认不编译
